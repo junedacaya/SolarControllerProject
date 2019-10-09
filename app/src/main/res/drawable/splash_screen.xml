@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><!-- TODO 2(SplashScreen): Set the image in Splashscreen -->
+        <bitmap
+            android:src="@drawable/solarpanel2"
+            android:gravity="center"/>
+    </item>
+
+</selector>
