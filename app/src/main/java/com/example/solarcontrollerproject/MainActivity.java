@@ -1,10 +1,12 @@
 package com.example.solarcontrollerproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import android.view.MenuItem;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -58,6 +60,20 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+        //noinspection SimplifiableIfStatement
+        // TODO: 6. Finish all the options for the menu selections. Finished
+        if (id == R.id.action_settings) {
+            Intent intent0 = new Intent(this, SettingsScreen.class);
+            startActivity(intent0);
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
