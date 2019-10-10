@@ -1,4 +1,4 @@
-package com.example.solarcontrollerproject.ui.gallery;
+package com.example.solarcontrollerproject.ui.control;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,16 +14,16 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.solarcontrollerproject.R;
 
-public class GalleryFragment extends Fragment {
+public class ControlFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private ControlViewModel galleryViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         galleryViewModel =
-                ViewModelProviders.of(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
+                ViewModelProviders.of(this).get(ControlViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_controller, container, false);
+        final TextView textView = root.findViewById(R.id.text_control);
         galleryViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
