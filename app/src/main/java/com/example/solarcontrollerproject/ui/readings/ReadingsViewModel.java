@@ -1,16 +1,16 @@
-package com.example.solarcontrollerproject.ui.slideshow;
+package com.example.solarcontrollerproject.ui.readings;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class ReadingsViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public ReadingsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("Readings");
     }
 
     public LiveData<String> getText() {
