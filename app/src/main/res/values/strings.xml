@@ -16,12 +16,12 @@
     <string name="title_activity_settings_screen">Settings</string>
 
     <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
+    <string name="language_header">Language</string>
+    <string name="theme_header">Theme</string>
 
-    <!-- Messages Preferences -->
+    <!-- Language Preferences -->
     <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
+    <string name="language_title">Preferred language </string>
 
     <!-- Sync Preferences -->
     <string name="sync_title">Sync email periodically</string>
@@ -30,4 +30,14 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="communicate">Communicate</string>
+    <string name="dark_theme">Dark theme:</string>
+
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="language_entries_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>
