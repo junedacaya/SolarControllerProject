@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SolarControllerProject</string>
+    <string name="action_settings">" Paramètres"</string>
+    <string name="attachment_summary_off">" Télécharger uniquement les pièces jointes sur demande manuelle"</string>
+    <string name="attachment_summary_on">" Télécharger automatiquement les pièces jointes pour les emails entrants"</string>
+    <string name="automatic_tracking">" Suivi automatique"</string>
+    <string name="attachment_title">" Télécharger les pièces jointes entrantes"</string>
+    <string name="communicate">" Communiquer"</string>
+    <string name="dark_theme">" Thème sombre:"</string>
+    <string name="help_message">L\'application vous donnera le pouvoir de surveiller l\'activité de vos panneaux solaires. Il fournit également un contrôle automatique ou manuel du positionnement de vos panneaux solaires. Les commandes que vous voyez sur l\'écran de commande règlent la rotation et l\'inclinaison de vos panneaux et / ou l\'activation du suivi automatique dirigera vos panneaux sur la meilleure position en fonction de la position actuelle du soleil. Si vous avez besoin d’aide supplémentaire, vous pouvez contacter notre service clientèle à l’adresse email suivante: @ solarcontrol@humber.ca et par téléphone au 416 829 0291.</string>
+    <string name="language_header">" La langue"</string>
+    <string name="language_title">" Langue préférée"</string>
+    <string name="menu_control">" Contrôles"</string>
+    <string name="menu_home">" Accueil"</string>
+    <string name="menu_readings">" Lectures"</string>
+    <string name="menu_send">" Envoyer"</string>
+    <string name="menu_share">" Partager"</string>
+    <string name="menu_tools">" Outils"</string>
+    <string name="nav_header_desc">"  Learn to pronounce En-tête de navigation"</string>
+    <string name="navigation_drawer_close">" Fermer le tiroir de navigation"</string>
+    <string name="navigation_drawer_open">" Ouvrir le tiroir de navigation"</string>
+    <string name="signature_title">" Votre signature"</string>
+    <string name="sync_title">" Synchroniser les emails périodiquement"</string>
+    <string name="theme_header">"  Learn to pronounce Thème"</string>
+    <string name="title_activity_settings_screen">" Paramètres"</string>
+    <string name="welcome_text">" Bienvenue sur Solar Controller"</string>
 </resources>

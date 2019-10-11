@@ -29,4 +29,5 @@
         app:layout_constraintTop_toTopOf="@+id/tv_welcome"
         app:layout_constraintVertical_bias="0.153"
         app:srcCompat="@drawable/solarpanel2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
