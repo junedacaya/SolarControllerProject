@@ -10,9 +10,9 @@
     <string name="menu_home">Home</string>
     <string name="menu_control">Controls</string>
     <string name="menu_readings">Readings</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_tools">Help</string>
+    <string name="menu_share">Login</string>
+    <string name="menu_send">Logout</string>
     <string name="title_activity_settings_screen">Settings</string>
 
     <!-- Preference Titles -->
